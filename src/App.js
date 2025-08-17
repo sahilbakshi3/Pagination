@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import UsersPage from './pages/UsersPage';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Pagination Example</h1>
-      <p>This is a simple example of a pagination component.</p>
+    <div className="App">
+      <UsersPage />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
