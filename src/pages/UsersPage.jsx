@@ -30,7 +30,7 @@ const UsersPage = () => {
   };
 
   return (
-    <PageLayout title="Users Management">
+    <PageLayout title="Pagination example(using hardcoded data)">
       <div className="space-y-6">
         {/* Controls Bar */}
         <div className="flex justify-between items-center">
